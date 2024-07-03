@@ -13,12 +13,19 @@ php artisan migrate
 
 # step 5: (in .env setup below code to send email)
 MAIL_MAILER=smtp
+
 MAIL_HOST=smtp.gmail.com
+
 MAIL_PORT=465
+
 MAIL_USERNAME=example@gmail.com
+
 MAIL_PASSWORD=your_mail_password
+
 MAIL_ENCRYPTION=tls
+
 MAIL_FROM_ADDRESS=example@gmail.com
+
 MAIL_FROM_NAME="${APP_NAME}"
 
 # step 6: 
